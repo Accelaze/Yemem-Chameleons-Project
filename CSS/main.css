@@ -14,7 +14,7 @@ nav{
     height: 150px;
     width: 70%;
     background-color: green;
-    margin: 1% 15%;
+    margin: 1vh 15%;
     font-display: optional;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -27,7 +27,7 @@ nav{
     height: 150px;
     width: 100%;
     background-color: green;
-    margin: 3% 37%;
+    margin: 3vh 37%;
     font-display: optional;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -38,7 +38,7 @@ nav{
 }
 .right{
     width: 50%;
-    float: right;
+    float: left;
 }
 .minimised-image{
     width: 500px;
@@ -57,13 +57,13 @@ nav{
     height: 300px;
     width: 550px;
     background-color: green;
-    margin: 4% 25%;
+    margin: 4vh 25%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .left{
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
@@ -71,9 +71,44 @@ nav{
     height: 300px;
     width: 900px;
     background-color: rgb(255, 255, 255);
-    margin: 4% 3%;
+    margin: 4vh 3%;
 }
 
+.locust{
+    height: 300px;
+    width: 550px;
+    margin: 4vh 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mealworms{
+    height: 300px;
+    width: 550px;
+    margin: 4vh 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cricket{
+    height: 300px;
+    width: 550px;
+    margin: 4vh 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calciworm{
+    height: 300px;
+    width: 550px;
+    margin: 4vh 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 a {
     color: black;
