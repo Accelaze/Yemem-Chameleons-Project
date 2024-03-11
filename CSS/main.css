@@ -38,7 +38,7 @@ nav{
 }
 .right{
     width: 50%;
-    float: left;
+    float: right;
 }
 .minimised-image{
     width: 500px;
@@ -63,7 +63,7 @@ nav{
     align-items: center;
 }
 .left{
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
