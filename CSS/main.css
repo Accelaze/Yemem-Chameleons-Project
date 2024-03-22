@@ -110,6 +110,34 @@ nav{
     align-items: center;
 }
 
+.behaviourdesc{
+    height: 900px;
+    width: 80%;
+    margin: 1% 10% 0%;
+    background-color: white;
+}
+
+.behaviourtxt{
+    height: 300px;
+    width: 65%;
+    float: right;
+    background-color: blue;
+}
+
+.behaviourtxt2{
+    height: 300px;
+    width: 100%;
+    float: right;
+    background-color: blue;
+}
+
+.behaviourtxt3{
+    height: 300px;
+    width: 65%;
+    float: left;
+    background-color: blue;
+}
+
 .leftdiet{
     width: 40%;
     float: left;
