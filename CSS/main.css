@@ -75,7 +75,7 @@ nav{
     font-size: large;
 }
 
-.locust{
+.insect{
     height: 300px;
     width: 550px;
     margin: 4vh 25%;
@@ -84,7 +84,7 @@ nav{
     align-items: center;
 }
 
-.chameleonangry{
+.colours{
     height: 300px;
     width: 550px;
     margin: 4vh 25%;
@@ -93,15 +93,7 @@ nav{
     align-items: center;
 }
 
-.mealworms{
-    height: 300px;
-    width: 550px;
-    margin: 4vh 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cricket{
+.habitat{
     height: 300px;
     width: 550px;
     margin: 4vh 25%;
@@ -110,23 +102,6 @@ nav{
     align-items: center;
 }
 
-.calciworm{
-    height: 300px;
-    width: 550px;
-    margin: 4vh 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.chameleongreen{
-    height: 300px;
-    width: 550px;
-    margin: 4vh 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .behaviourdesc{
     height: 900px;
     width: 80%;
@@ -164,6 +139,17 @@ nav{
     width: 50%;
     float: left;
 }
+
+.lefthabitat{
+    width: 40%;
+    float: left;
+}
+
+.righthabitat{
+    width: 50%;
+    float: left;
+}
+
 
 .leftcolour{
     width: 40%;
