@@ -93,6 +93,14 @@ nav{
     align-items: center;
 }
 
+.mealworms{
+    height: 300px;
+    width: 550px;
+    margin: 4vh 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cricket{
     height: 300px;
     width: 550px;
