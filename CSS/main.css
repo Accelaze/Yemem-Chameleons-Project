@@ -103,15 +103,29 @@ nav{
 }
 
 .pic{
-    height: 300px;
-    width: 330px;
+    height: 250px;
+    width: 250px;
     margin: 4vh 55%;
     background-color: brown;
 }
 
-.pic2{
-    height: 300px;
+.name{
+    height: 40px;
     width: 330px;
+    margin: 4vh 55%;
+    background-color: rgb(255, 255, 255);
+}
+
+.name2{
+    height: 40px;
+    width: 330px;
+    margin: 4vh 29%;
+    background-color: rgb(255, 255, 255);
+}
+
+.pic2{
+    height: 250px;
+    width: 250px;
     margin: 4vh 29%;
     background-color: brown;
 }
