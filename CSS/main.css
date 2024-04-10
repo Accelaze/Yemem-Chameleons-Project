@@ -130,6 +130,21 @@ nav{
     background-color: brown;
 }
 
+.division{
+    height: 30px;
+    width: 1000px;
+    background-color: green;
+    margin: 4vh 19%;
+}
+
+
+.division2{
+    height: 30px;
+    width: 600px;
+    background-color: green;
+    margin: 4vh 40%;
+}
+
 .behaviourdesc{
     height: 900px;
     width: 80%;
