@@ -109,6 +109,12 @@ nav{
     background-color: brown;
 }
 
+.plant{
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+}
+
 .name{
     height: 40px;
     width: 330px;
