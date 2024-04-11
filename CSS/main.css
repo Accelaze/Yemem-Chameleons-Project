@@ -84,6 +84,20 @@ nav{
     align-items: center;
 }
 
+.emotion{
+    height: 100px;
+    width: 60%;
+    background-color: silver;
+    margin: 5vh 20%;
+    font-display: optional;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .colours{
     height: 300px;
     width: 550px;
