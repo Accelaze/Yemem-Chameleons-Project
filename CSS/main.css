@@ -87,8 +87,26 @@ nav{
 .emotion{
     height: 100px;
     width: 60%;
-    background-color: silver;
+    background-color: rgba(72, 107, 15, 0.753);
     margin: 5vh 20%;
+    font-display: optional;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    height: 100px;
+    width: 20%;
+    background-color: rgb(206, 11, 11);
+    outline: auto;
+    outline-style: dashed;
+    outline-color: green;
+    outline-width: thick;
+    margin: 5vh 40%;
     font-display: optional;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -97,6 +115,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
 
 .colours{
     height: 300px;
