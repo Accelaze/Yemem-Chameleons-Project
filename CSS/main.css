@@ -75,6 +75,14 @@ nav{
     font-size: large;
 }
 
+.infoboxcolours{
+    height: 300px;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    margin: 7vh 26%;
+    font-size: large;
+}
+
 .insect{
     height: 300px;
     width: 550px;
@@ -120,7 +128,7 @@ nav{
 .colours{
     height: 300px;
     width: 550px;
-    margin: 4vh 25%;
+    margin: 4vh 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +195,7 @@ nav{
 .behaviourdesc{
     height: 900px;
     width: 80%;
-    margin: 1% 10% 0%;
+    margin: 2% 10% 4%;
     background-color: white;
 }
 
