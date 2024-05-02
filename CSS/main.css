@@ -23,6 +23,84 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+/* navigation and dropdown */
+ 
+.navbar {
+    overflow: hidden;
+    background-color: green;
+  }
+   
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+   
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+   
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: blue;
+  }
+   
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+  }
+   
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+   
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+   
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.breed2{
+    height: 150px;
+    width: 70%;
+    background-color: green;
+    margin: 1vh 15% 0%;
+    font-display: optional;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button{
     height: 150px;
     width: 100%;
