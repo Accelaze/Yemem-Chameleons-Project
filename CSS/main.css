@@ -357,6 +357,13 @@ nav{
     background-color: brown;
 }
 
+.firstdivision{
+    height: 30px;
+    width: 1000px;
+    background-color: green;
+    margin: 4vh 23.5%;
+}
+
 .division{
     height: 30px;
     width: 1000px;
