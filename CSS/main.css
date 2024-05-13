@@ -297,8 +297,8 @@ nav{
 
 
 .colours{
-    height: auto;
-    max-width: 100%;
+    height: 300;
+    width: 550px;
     margin: 4vh 35%;
     display: flex;
     justify-content: center;
