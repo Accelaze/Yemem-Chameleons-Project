@@ -297,8 +297,8 @@ nav{
 
 
 .colours{
-    height: 300;
-    width: 550px;
+    height: 300px;
+    width: 500px;
     margin: 4vh 35%;
     display: flex;
     justify-content: center;
@@ -383,28 +383,28 @@ nav{
     height: 900px;
     width: 80%;
     margin: 2% 10% 4%;
-    background-color: blue;
+    background-color: white;
 }
 
 .behaviourtxt{
     height: 300px;
     width: 65%;
     float: right;
-    background-color: blue;
+    background-color: white;
 }
 
 .behaviourtxt2{
     height: 300px;
     width: 100%;
     float: right;
-    background-color: blue;
+    background-color: white;
 }
 
 .behaviourtxt3{
     height: 300px;
     width: 65%;
     float: left;
-    background-color: blue;
+    background-color: white;
 }
 
 .leftdiet{
