@@ -233,7 +233,7 @@ nav{
 }
 
 .infoboxcolours{
-    height: 300px;
+    height: 245px;
     width: 900px;
     background-color: rgb(255, 255, 255);
     margin: 7vh 26%;
@@ -297,6 +297,15 @@ nav{
 
 
 .colour{
+    height: 300;
+    width: 500px;
+    margin: 4vh 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cagetype{
     height: 300px;
     width: 550px;
     margin: 4vh 35%;
