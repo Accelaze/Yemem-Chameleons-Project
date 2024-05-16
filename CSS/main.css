@@ -305,10 +305,10 @@ nav{
     align-items: center;
 }
 
-.cagetype{
-    height: 300px;
-    width: 550px;
-    margin: 4vh 35%;
+.gutloading{
+    height: 233px;
+    width: 350px;
+    margin: 4vh 40%;
     display: flex;
     justify-content: center;
     align-items: center;
