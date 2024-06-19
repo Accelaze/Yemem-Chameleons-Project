@@ -416,6 +416,11 @@ nav{
     background-color: white;
 }
 
+.gif{
+    width: 525px;
+    height: auto;
+}
+
 .leftdiet{
     width: 40%;
     float: left;
