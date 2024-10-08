@@ -184,24 +184,33 @@ nav{
     width: 450px;
     height: auto;
     margin: 2% 0%;
+    border-radius: 5%;
 }
 
 .cham-pic-two{
     width: 450px;
     height: auto;
+    border-radius: 5%;
 }
 
 .pic-holder{
     float: right;
-    width: 450px;
-    margin: 3.1% 23%;
+    width: 100px;
+    margin-right: 38%;
+    margin-top: 3%;
 }
 
 .intro{
     background-color: white;
-    height: 500px;
+    height: 300px;
     width: 500px;
-    margin: 4% 17%;
+    margin-top: 4%;
+    margin-left: 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    text-align: center; /* Centers the text */
+    font-size: 18px;
 }
 
 .imgref{
