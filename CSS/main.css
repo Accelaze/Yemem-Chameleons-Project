@@ -211,6 +211,7 @@ nav{
     justify-content: center; /* Horizontal centering */
     text-align: center; /* Centers the text */
     font-size: 18px;
+    border-radius: 5%;
 }
 
 .imgref{
