@@ -2,6 +2,12 @@ body{
     margin: 0%;
     background-color: rgba(12, 66, 214, 0.411);
 }
+
+.dark-mode {
+    background-color: rgb(43, 40, 40);
+    color: white;
+  }
+
 *{
     margin:0;
     padding: 0;
@@ -242,6 +248,7 @@ nav{
     background-color: rgb(255, 255, 255);
     margin: 7vh 26%;
     font-size: large;
+    padding: 20px;
 }
 
 .insect{
