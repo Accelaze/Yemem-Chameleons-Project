@@ -1,11 +1,11 @@
 body{
     margin: 0%;
-    background-color: rgba(12, 66, 214, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 
-.dark-mode {
-    background-color: rgb(43, 40, 40);
-    color: white;
+body {
+    background-color: var(--background);
+    color: var(--text);
   }
 
 *{
