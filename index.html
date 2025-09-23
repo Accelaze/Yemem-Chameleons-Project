@@ -38,7 +38,7 @@
                 <a href="behaviour.html"><li>BEHAVIOUR</li></a>
                 <a href="habitat.html"><li>HABITAT</li></a>
                 <a href="colours.html"><li>COLOURS</li></a>
-                <button onclick="toggleDarkmode">Dark Mode</button>
+                <button id=themeToggle onclick="toggleDarkmode()">Dark Mode</button>
               </ul>
             </div>
           </nav>
@@ -61,6 +61,32 @@
 </div>
 
 
+      <script>
+        //Check saved mode on page load
+        window.onload = function () {
+            const savedMode = localStorage.getItem("darkMode");
+            const body = document.body;
+            const button = document.querySelector("button");
 
+            if (savedMode === "enabled") {
+                body.classList.add("dark");
+                button.textContent = "Light Mode";
+            }
+        };
+
+        // Toggle and save mode
+        function toggleDarkmode() {
+          const body = document.body;
+          const button = document.querySelector("button");
+
+          body.classList.toggle("dark");
+
+          if (body.classList.contains("dark")) {
+            button.textContent = "Light Mode";
+          } else {
+            button.textContent = "Dark Mode";
+          }
+        }
+      </script>
     </body>
 </html>

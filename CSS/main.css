@@ -6,6 +6,41 @@ body{
     color: var(--text);
   }
 
+body.dark{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark #menu,
+body.dark .intro{
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+body.dark .infobox,
+body.dark .infoboxcolours,
+body.dark .behaviourdesc{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode button style */
+body.dark button {
+  background-color: #333333;
+  color: #ffffff;
+}
+
 *{
     margin:0;
     padding: 0;
