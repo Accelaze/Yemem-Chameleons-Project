@@ -118,7 +118,7 @@ nav{
   margin-bottom: 5px;
   position: relative;
   
-  background: #000000;
+  background: #11bb28;
   border-radius: 3px;
   
   z-index: 1;
@@ -141,14 +141,14 @@ nav{
 }
 
 /* 
- * Transform all the slices of hamburger
+ * Transform all the slices of hamburger (navigation bar)
  * into a crossmark.
  */
 #menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #11bb28;
 }
 
 /*
@@ -161,7 +161,7 @@ nav{
 }
 
 /*
- * Ohyeah and the last one should go the other direction
+ * Oh, yeah, and the last one should go the other direction
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
@@ -169,8 +169,8 @@ nav{
 }
 
 /*
- * Make this absolute positioned
- * at the top left of the screen
+ * Make this positioned at
+ * the top left of the screen
  */
 #menu
 {
